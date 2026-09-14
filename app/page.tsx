@@ -45,30 +45,17 @@ export default function Home() {
     
   
 
-      <input type="text" placeholder="Digite a descrição:" className="my-5 w-full px-4 py-2 text-sm text-slate-700 bg-transparent border border-slate-300 rounded-lg shadow-sm transition-colors duration-200 ease-in-out focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 hover:border-slate-400 placeholder:text-slate-400"
-      
-      />
-    
-      <input type="number" placeholder="Digite o preço:" className="w-full px-4 py-2 text-sm text-slate-700 bg-transparent border border-slate-300 rounded-lg shadow-sm transition-colors duration-200 ease-in-out focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 hover:border-slate-400 placeholder:text-slate-400"
-      
-      />
+       <div className="py-10">
+        <h3>📍 Onde nos Encontrar</h3>
+       
+        <address>
+            <p><strong>Endereço:</strong> RUA AMOSTRADINHA</p>
+            <p><strong>Cidade:</strong> PETROLINA-PE PE</p>
+            <p><strong>CEP:</strong> 67675-042</p>
+            <p><em>Em frente do Restaurante Eduardo é lanche e Sabor Eduardo</em></p>
+        </address>
+    </div>
 
-      <input type="text" placeholder="Digite a categoria:" className="my-5 w-full px-4 py-2 text-sm text-slate-700 bg-transparent border border-slate-300 rounded-lg shadow-sm transition-colors duration-200 ease-in-out focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 hover:border-slate-400 placeholder:text-slate-400"
-      
-      />
-
-       <input type="text" placeholder="Tem o lanche?" className="my- w-full px-4 py-2 text-sm text-slate-700 bg-transparent border border-slate-300 rounded-lg shadow-sm transition-colors duration-200 ease-in-out focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 hover:border-slate-400 placeholder:text-slate-400"
-      
-      />
-
-
-      <button className="cursor-pointer mt-10 w-full py-3 px-4 bg-gray-600 hover:bg-emerald-700 text-white font-medium rounded-lg shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2" 
-      onClick={cadastrar}
-      
-      >Cadastrar
-
-      </button>
-      
     </div>
     </main>
   );

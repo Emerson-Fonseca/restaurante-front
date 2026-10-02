@@ -50,7 +50,7 @@ export default function Home() {
        
         <address>
             <p><strong>Endereço:</strong> RUA AMOSTRADINHA</p>
-            <p><strong>Cidade:</strong> PETROLINA-PE PE</p>
+            <p><strong>Cidade:</strong> PETROLINA-PE</p>
             <p><strong>CEP:</strong> 67675-042</p>
             <p><em>Em frente ao Restaurante Eduardo é lanche e Sabor Eduardo</em></p>
         </address>
